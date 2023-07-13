@@ -2,6 +2,10 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+.t-w {
+  color: #fff;
+}
+
 .bg-blue {
   background: #1771F1;
 }
@@ -63,6 +67,10 @@ a {
   font-size: 20px;
   font-weight: 700;
   padding: 15px;
+  transition: 0.3s;
+}
+.start__item:hover {
+  transform: scale(1.05);
 }
 .start__item span {
   position: absolute;
@@ -112,4 +120,52 @@ a {
   transform: scale(1.1);
   background: #1771F1;
   color: #fff;
+}
+
+.sales {
+  border-radius: 10px;
+  background: linear-gradient(125deg, #35C8CB 0%, #7B2DD6 100%);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.2);
+  height: 100px;
+}
+.sales__title {
+  font-weight: 700;
+}
+.sales__des {
+  font-size: 12px;
+}
+.sales__btn {
+  background: #fff;
+  color: #01142F;
+  font-size: 22px;
+  transition: 0.3s;
+}
+.sales__btn:hover {
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+  background: #fff;
+  color: #01142F;
+}
+
+.img-sales {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 30px;
+  top: -40%;
+}
+
+.sales-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: auto;
+  left: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.sales-show {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

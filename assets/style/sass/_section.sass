@@ -9,6 +9,9 @@
         font-size: 20px
         font-weight: 700
         padding: 15px
+        transition: .3s
+        &:hover
+            transform: scale(1.05)
         & span
             position: absolute
             top: auto
@@ -29,7 +32,7 @@
 .carousel-caption
     top: 25px
     bottom: auto
-    & span  
+    & span
         box-shadow: -15px 0 0 $red, 15px 0 0 $red
         background-color: $red
         color: $white
@@ -47,3 +50,39 @@
         transform: scale(1.1)
         background: $blue
         color: $white
+.sales
+    border-radius: 10px
+    background: linear-gradient(125deg, #35C8CB 0%, #7B2DD6 100%)
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.20)
+    height: 100px
+    &__title
+        font-weight: 700
+    &__des
+        font-size: 12px
+    &__btn
+        background: $white
+        color: $black
+        font-size: 22px
+        transition: .3s
+        &:hover
+            box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25)
+            background: $white
+            color: $black
+.img-sales
+    width: 100px
+    height: 100px
+    position: absolute
+    left: 30px
+    top: -40%
+.sales-close
+    position: absolute
+    top: 10px
+    right: 10px
+    bottom: auto
+    left: auto
+    width: 30px
+    height: 30px
+    border-radius: 100%
+    background: $white
+.sales-show
+    display: none
