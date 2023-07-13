@@ -1,7 +1,7 @@
 /* Start */
 .start
     padding-top: 70px
-    padding-bottom: 70px
+    padding-bottom: 30px
     &__item
         border-radius: 10px
         height: 110px
@@ -86,3 +86,20 @@
     background: $white
 .sales-show
     display: none
+
+/* Service */
+.service
+    &__item
+        border-radius: 10px
+        background: $white
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20)
+        padding: 20px
+        transition: .3s
+        &:hover
+            transform: scale(1.01)
+        &__title
+            font-size: 30px
+            font-weight: 700
+        &__des
+            font-size: 14px
+            font-weight: 400
